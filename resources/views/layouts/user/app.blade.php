@@ -23,7 +23,7 @@
     </head>
     <body>
 
-        <div id="app">
+       <nav>
             <div class="ui huge borderless stackable blue inverted  menu">
               <div class="ui grid container">
                 <a class="item" href="{{ url('/') }}">Acceuil</a>
@@ -46,8 +46,8 @@
                 </div>
                 @endif      
             </div>
-        </div>
-    </div>
+       </nav>
+
     
     @yield('content')
 
